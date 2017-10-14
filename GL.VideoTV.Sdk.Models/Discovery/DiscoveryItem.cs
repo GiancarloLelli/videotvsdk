@@ -1,4 +1,6 @@
-﻿namespace GL.Sdk.VideoTV.Models.Discovery
+﻿using System.Runtime.Serialization;
+
+namespace GL.Sdk.VideoTV.Models.Discovery
 {
 	[DataContract(Namespace = "Microsoft.Xbox.Discovery.ChannelProviderDataContracts", Name = "DiscoveryChannelItem")]
 	public class DiscoveryItem

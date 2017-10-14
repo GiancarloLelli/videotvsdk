@@ -1,4 +1,6 @@
-﻿namespace GL.Sdk.VideoTV.Models.Common
+﻿using System.Runtime.Serialization;
+
+namespace GL.Sdk.VideoTV.Models.Common
 {
 	[DataContract(Namespace = "Microsoft.Marketplace.ChannelCommon.Contracts", Name = "Microsoft.Marketplace.ChannelCommon.Contracts.V3.Response.PagingInfo")]
 	public class PagingInfo

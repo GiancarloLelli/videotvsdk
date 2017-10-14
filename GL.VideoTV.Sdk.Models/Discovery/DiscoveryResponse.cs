@@ -1,5 +1,6 @@
 ﻿using GL.Sdk.VideoTV.Models.Common;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace GL.Sdk.VideoTV.Models.Discovery
 {

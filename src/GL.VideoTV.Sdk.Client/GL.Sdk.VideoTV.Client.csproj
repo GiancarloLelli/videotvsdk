@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
 	<TargetFramework>netstandard1.4</TargetFramework>
-	<DocumentationFile>\GL.Sdk.VideoTV.Client.xml</DocumentationFile>
+	<DocumentationFile>\GL.VideoTV.Sdk.Client.xml</DocumentationFile>
 	<PackageId>GL.Sdk.VideoTV</PackageId>
 	<PackageVersion>1.0.0</PackageVersion>
 	<Authors>Giancarlo Lelli</Authors>
