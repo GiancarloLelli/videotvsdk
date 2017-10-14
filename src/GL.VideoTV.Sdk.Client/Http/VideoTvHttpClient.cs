@@ -21,14 +21,14 @@ namespace GL.Sdk.VideoTV.Client.Http
 		{
 			var response = await _discoveryHttpClient.GetAsync(query);
 			string json = await response.Content.ReadAsStringAsync();
-			return JsonConvert.DeserializeObject<T>(json);
+			return JsonConvert.DeserializeObject<T>(json, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
 		}
 
 		public async Task<T> QueryDisplayService<T>(string query)
 		{
 			var response = await _displayHttpClient.GetAsync(query);
 			string json = await response.Content.ReadAsStringAsync();
-			return JsonConvert.DeserializeObject<T>(json);
+			return JsonConvert.DeserializeObject<T>(json, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
 		}
 
 		public void Dispose()

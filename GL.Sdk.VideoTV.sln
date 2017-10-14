@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GL.Sdk.VideoTV.Client", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GL.Sdk.VideoTV.Models", "GL.VideoTV.Sdk.Models\GL.Sdk.VideoTV.Models.csproj", "{FC5E1689-695C-4094-8CA1-996B57DF7401}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.Sdk.VideoTV.Test", "src\GL.Sdk.VideoTV.Test\GL.Sdk.VideoTV.Test.csproj", "{433F6FE1-3414-4C46-8442-BD03954EE504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +25,16 @@ Global
 		{FC5E1689-695C-4094-8CA1-996B57DF7401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5E1689-695C-4094-8CA1-996B57DF7401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5E1689-695C-4094-8CA1-996B57DF7401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433F6FE1-3414-4C46-8442-BD03954EE504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433F6FE1-3414-4C46-8442-BD03954EE504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433F6FE1-3414-4C46-8442-BD03954EE504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433F6FE1-3414-4C46-8442-BD03954EE504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{433F6FE1-3414-4C46-8442-BD03954EE504} = {E4DB2511-C66A-49E0-830F-74BD5B88EB26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {412A5219-70E0-4136-84A9-B06629961989}

@@ -2,12 +2,13 @@
 
 namespace GL.Sdk.VideoTV.Models.Search
 {
-	public class SearchResponse
+	public class SearchResponse : SearchBase
 	{
-		public bool HasMorePages { get; set; }
+		public IEnumerable<CatalogProduct> Products { get; set; }
+	}
 
+	public class QueryResponse : SearchBase
+	{
 		public IEnumerable<SearchResult> Results { get; set; }
-
-		public int TotalFamilyCount { get; set; }
 	}
 }
