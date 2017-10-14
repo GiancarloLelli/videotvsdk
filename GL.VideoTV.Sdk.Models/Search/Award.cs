@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GL.VideoTV.Sdk.Models.Search
+﻿namespace GL.Sdk.VideoTV.Models.Search
 {
-    public class Award
-    {
+	public class Award
+	{
 		public string CategoryName { get; set; }
 		public bool IsWinner { get; set; }
 		public string AwardOrganizationMediaId { get; set; }

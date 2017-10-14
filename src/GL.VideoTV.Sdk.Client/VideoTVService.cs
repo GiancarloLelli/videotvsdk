@@ -1,15 +1,13 @@
-﻿using GL.VideoTV.Sdk.Models.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
-using GL.VideoTV.Sdk.Models.Discovery;
+﻿using GL.VideoTV.Sdk.Models.Discovery;
+using GL.VideoTV.Sdk.Models.Interfaces;
 using GL.VideoTV.Sdk.Models.Search;
+using System;
+using System.Globalization;
 
-namespace GL.VideoTV.Sdk.Client
+namespace GL.Sdk.VideoTV.Client
 {
-    public class VideoTVService : IVideoTVService
-    {
+	public class VideoTVService : IVideoTVService
+	{
 		private readonly CultureInfo m_culture;
 		private readonly CultureInfo m_market;
 

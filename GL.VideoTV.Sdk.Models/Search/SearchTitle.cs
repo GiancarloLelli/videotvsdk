@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GL.VideoTV.Sdk.Models.Search
+﻿namespace GL.Sdk.VideoTV.Models.Search
 {
-    public class SearchTitle
-    {
+	public class SearchTitle
+	{
 		public string SearchTitleString { get; set; }
 		public string SearchTitleType { get; set; }
 	}

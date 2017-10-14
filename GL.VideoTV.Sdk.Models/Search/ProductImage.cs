@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace GL.VideoTV.Sdk.Models.Search
+namespace GL.Sdk.VideoTV.Models.Search
 {
-    public class ProductImage
-    {
+	public class ProductImage
+	{
 		public string Uri { get; set; }
 		public string ImagePurpose { get; set; }
 		public string BackgroundColor { get; set; }

@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace GL.VideoTV.Sdk.Models.Search
+namespace GL.Sdk.VideoTV.Models.Search
 {
-    public class CatalogProductProperties
-    {
+	public class CatalogProductProperties
+	{
 		public IEnumerable<string> TVGenres { get; set; }
 		public string ShortDescription { get; set; }
 		public IEnumerable<ContributorProfile> Contributors { get; set; }

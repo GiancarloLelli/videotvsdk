@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<TargetFramework>netstandard1.4</TargetFramework>
+	<DocumentationFile>\GL.Sdk.VideoTV.Client.xml</DocumentationFile>
+	<PackageId>GL.Sdk.VideoTV</PackageId>
+	<PackageVersion>1.0.0</PackageVersion>
+	<Authors>Giancarlo Lelli</Authors>
+	<Description>A modern and intuitive SDK that wraps the Video + TV API used by the Windows Store App. This package is unofficial.</Description>
+	<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	<PackageReleaseNotes>First release</PackageReleaseNotes>
+	<Copyright>Copyright 2017 (c) Giancarlo Lelli. All rights reserved.</Copyright>
+	<PackageTags>videotv-store</PackageTags>
+	<Name>Video and TV API Service SDK</Name>
+	<PackageLicenseUrl>https://github.com/GiancarloLelli/videotvsdk/blob/master/LICENSE</PackageLicenseUrl>
+	<PackageProjectUrl>https://github.com/GiancarloLelli/videotvsdk</PackageProjectUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GL.VideoTV.Sdk.Models\GL.Sdk.VideoTV.Models.csproj" />
+  </ItemGroup>
+</Project>

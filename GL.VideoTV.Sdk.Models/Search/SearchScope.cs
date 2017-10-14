@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GL.VideoTV.Sdk.Models.Search
+﻿namespace GL.Sdk.VideoTV.Models.Search
 {
-    public enum SearchScope
-    {
+	public enum SearchScope
+	{
 		Video,
 		TV,
 		VideoTV
-    }
+	}
 }

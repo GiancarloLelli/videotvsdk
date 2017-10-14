@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace GL.VideoTV.Sdk.Models.Search
+namespace GL.Sdk.VideoTV.Models.Search
 {
-    public class SearchResult
-    {
+	public class SearchResult
+	{
 		public string ProductFamilyName { get; set; }
 		public IEnumerable<string> ProductIds { get; set; }
 		public IEnumerable<CatalogProduct> Products { get; set; }

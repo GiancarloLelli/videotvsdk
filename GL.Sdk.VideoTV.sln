@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E4DB2511-C66A-49E0-830F-74BD5B88EB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.VideoTV.Sdk.Client", "src\GL.VideoTV.Sdk.Client\GL.VideoTV.Sdk.Client.csproj", "{E3DA1588-C579-45C7-AE02-AD8BA6DA242E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GL.Sdk.VideoTV.Client", "src\GL.VideoTV.Sdk.Client\GL.Sdk.VideoTV.Client.csproj", "{E3DA1588-C579-45C7-AE02-AD8BA6DA242E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.VideoTV.Sdk.Models", "GL.VideoTV.Sdk.Models\GL.VideoTV.Sdk.Models.csproj", "{FC5E1689-695C-4094-8CA1-996B57DF7401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GL.Sdk.VideoTV.Models", "GL.VideoTV.Sdk.Models\GL.Sdk.VideoTV.Models.csproj", "{FC5E1689-695C-4094-8CA1-996B57DF7401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

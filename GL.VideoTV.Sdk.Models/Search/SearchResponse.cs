@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace GL.VideoTV.Sdk.Models.Search
+namespace GL.Sdk.VideoTV.Models.Search
 {
-    public class SearchResponse
-    {
+	public class SearchResponse
+	{
 		public bool HasMorePages { get; set; }
 
 		public IEnumerable<SearchResult> Results { get; set; }

@@ -1,12 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Globalization;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace GL.VideoTV.Sdk.Client.Http
+namespace GL.Sdk.VideoTV.Client.Http
 {
 	internal class VideoTvHttpClient : IDisposable
 	{

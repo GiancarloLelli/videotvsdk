@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace GL.VideoTV.Sdk.Models.Search
+namespace GL.Sdk.VideoTV.Models.Search
 {
-    public class Trailer
-    {
+	public class Trailer
+	{
 		public string TrailerName { get; set; }
 		public string Uri { get; set; }
 		public int DurationInSeconds { get; set; }

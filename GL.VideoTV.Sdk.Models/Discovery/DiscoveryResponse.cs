@@ -1,14 +1,11 @@
-﻿using GL.VideoTV.Sdk.Models.Common;
-using System;
+﻿using GL.Sdk.VideoTV.Models.Common;
 using System.Collections.Generic;
-using System.Runtime.Serialization;
-using System.Text;
 
-namespace GL.VideoTV.Sdk.Models.Discovery
+namespace GL.Sdk.VideoTV.Models.Discovery
 {
 	[DataContract(Namespace = "Microsoft.Xbox.Discovery.ChannelProviderDataContracts", Name = "DiscoveryChannelResponse")]
 	public class DiscoveryResponse
-    {
+	{
 		[DataMember(Name = "__type")]
 		private string Type { get; set; }
 

@@ -1,13 +1,10 @@
-﻿using GL.VideoTV.Sdk.Models.Discovery;
-using GL.VideoTV.Sdk.Models.Search;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using GL.Sdk.VideoTV.Models.Discovery;
+using GL.Sdk.VideoTV.Models.Search;
 
-namespace GL.VideoTV.Sdk.Models.Interfaces
+namespace GL.Sdk.VideoTV.Models.Interfaces
 {
-    public interface IVideoTVService
-    {
+	public interface IVideoTVService
+	{
 		DiscoveryResponse GetSpotlight();
 		DiscoveryResponse GetMovieTrailers(int skip, int top);
 		DiscoveryResponse GetNewlyReleasedMovies(int skip, int top);
