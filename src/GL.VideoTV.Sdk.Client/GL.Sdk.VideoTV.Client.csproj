@@ -18,6 +18,6 @@
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GL.VideoTV.Sdk.Models\GL.Sdk.VideoTV.Models.csproj" />
+    <ProjectReference Include="..\GL.VideoTV.Sdk.Models\GL.Sdk.VideoTV.Models.csproj" />
   </ItemGroup>
 </Project>
