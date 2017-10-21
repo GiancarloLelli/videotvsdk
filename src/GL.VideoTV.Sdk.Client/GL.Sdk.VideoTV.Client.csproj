@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
 	<TargetFramework>netstandard1.4</TargetFramework>
-	<DocumentationFile>\GL.VideoTV.Sdk.Client.xml</DocumentationFile>
+	<DocumentationFile></DocumentationFile>
 	<PackageId>GL.Sdk.VideoTV</PackageId>
 	<PackageVersion>1.0.0</PackageVersion>
 	<Authors>Giancarlo Lelli</Authors>
@@ -13,6 +13,10 @@
 	<Name>Video and TV API Service SDK</Name>
 	<PackageLicenseUrl>https://github.com/GiancarloLelli/videotvsdk/blob/master/LICENSE</PackageLicenseUrl>
 	<PackageProjectUrl>https://github.com/GiancarloLelli/videotvsdk</PackageProjectUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />

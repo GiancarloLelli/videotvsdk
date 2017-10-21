@@ -1,5 +1,5 @@
 # Video & TV Store Service .NET Standard SDK
-This repo contains .NET Standard wrapper for the Video & TV Service used by the Microsoft Store app in Windows 10. This tiny SDK in available as NuGet package and it is provided with no warranties. This is an unofficial SDK built for fun and for the community. Windows 10 app can use this library to present their users with some basic informations about Movies & TV Shows that they might enjoy.
+This repo contains .NET Standard wrapper for the Video & TV Service used by the Microsoft Store app in Windows 10. This tiny SDK in available as [NuGet](https://www.nuget.org/packages/GL.Sdk.VideoTV) package and it is provided with no warranties. This is an unofficial SDK built for fun and for the community. Windows 10 app can use this library to present their users with some basic informations about Movies & TV Shows that they might enjoy.
 
 # Features available
 Here's a list of the available service call that this API offers. All of this API method are localized (the service supports localization) and can be paged using the usual combination of *$skip* and *$top*.
@@ -17,7 +17,7 @@ Here's a list of the available service call that this API offers. All of this AP
 * GetAllByIdAsync
 
 # Sample usage
-Inside the .cs file "\videotvsdk\src\GL.Sdk.VideoTV.Test\Program.cs" you can find some examples of usage. For those who are too lazy to browse to that file, here's a snippet of that file.
+Inside the .cs file *"\videotvsdk\src\GL.Sdk.VideoTV.Test\Program.cs"* you can find some examples of usage. For those who are too lazy to browse to that file, here's a snippet of that file.
 
 ```cs
 class Program
