@@ -20,19 +20,19 @@ Here's a list of the available service call that this API offers. All of this AP
 Inside the .cs file "\videotvsdk\src\GL.Sdk.VideoTV.Test\Program.cs" you can find some examples of usage. For those who are too lazy to browse to that file, here's a snippet of that file.
 
 ```cs
-	class Program
-	{
-		static void Main(string[] args) => MainAsync(args).GetAwaiter().GetResult();
+class Program
+{
+    static void Main(string[] args) => MainAsync(args).GetAwaiter().GetResult();
 
-		static async Task MainAsync(string[] args)
-		{
-			var client = new VideoTVService(new CultureInfo("it-it"), new CultureInfo("en-us"));
-			var spotlight = await client.GetSpotlightAsync();
-			var new_releases = await client.GetNewlyReleasedMoviesAsync(0, 2);
-			var movieDetail = await client.GetAllByIdAsync(new_releases.Items.Select(x => x.Id).ToArray());
-			var search = await client.SearchAsync("star wars", SearchScope.VideoTV);
-		}
-	}
+    static async Task MainAsync(string[] args)
+    {
+        var client = new VideoTVService(new CultureInfo("it-it"), new CultureInfo("en-us"));
+        var spotlight = await client.GetSpotlightAsync();
+        var new_releases = await client.GetNewlyReleasedMoviesAsync(0, 2);
+        var movieDetail = await client.GetAllByIdAsync(new_releases.Items.Select(x => x.Id).ToArray());
+        var search = await client.SearchAsync("star wars", SearchScope.VideoTV);
+    }
+}
 ```
 
 # License and contact
