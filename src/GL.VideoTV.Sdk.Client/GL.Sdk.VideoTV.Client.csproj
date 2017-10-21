@@ -13,6 +13,7 @@
 	<Name>Video and TV API Service SDK</Name>
 	<PackageLicenseUrl>https://github.com/GiancarloLelli/videotvsdk/blob/master/LICENSE</PackageLicenseUrl>
 	<PackageProjectUrl>https://github.com/GiancarloLelli/videotvsdk</PackageProjectUrl>
+	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebugType>none</DebugType>

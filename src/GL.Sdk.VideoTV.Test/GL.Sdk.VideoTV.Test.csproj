@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GL.VideoTV.Sdk.Client\GL.Sdk.VideoTV.Client.csproj" />
-    <ProjectReference Include="..\GL.VideoTV.Sdk.Models\GL.Sdk.VideoTV.Models.csproj" />
+    <PackageReference Include="GL.Sdk.VideoTV" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
